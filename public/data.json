@@ -1,0 +1,29 @@
+{
+    "dictionary": {
+        "n1": ["tree", "rock", "root", "stream", "leaf", "branch", "grass", "fish", "bird", "cloud", "rose", "stone", "bridge", "rain", "snow", "smoke", "sky"],
+        "n2": ["river", "ocean", "mountain", "cactus", "willow", "oak tree", "sunbeam", "moonlight", "starlight", "pebble", "desert", "pear tree", "flower", "rainbow", "forest"],
+        "n3": ["icicle", "daffodil", "butterfly", "afternoon", "willow tree", "waterfall", "shooting star", "apple tree", "octopus", "volcano", "yucca plant", "horizon"],
+        "n4": ["rhinoceros", "giant redwood", "cherry blossom", "caterpillar", "dandelion", "alligator", "crocodile"],
+        
+        "v1": ["sings", "runs", "flies", "floats", "hums", "swims", "flows", "blows", "dreams", "hopes", "hides", "shines", "rests", "thinks"],
+        "v2": ["believes", "ponders", "wonders", "whispers", "pauses", "appears", "forgives", "rises"],
+
+        "adj1": ["red", "young", "old", "damp", "blue", "bold", "brave", "calm", "great", "huge", "small", "rough"],
+        "adj2": ["flowing", "flying", "growing", "ancient", "gazing", "swimming", "eager", "gentle", "happy", "dainty", "petite", "massive", "little", "bashful", "tiny"],
+        "adj3": ["babbling", "wondering", "beautiful", "majestic", "dazzling", "elegant", "delightful", "wonderful", "relaxing"],
+        "adj4": ["magnificent", "miniature", "porcupine quilled"],
+
+        "adv2": ["quickly", "slowly", "calmly", "closely", "always", "safely", "often"],
+        "adv3": ["easily", "happily", "secretly", "cautiously", "quietly", "peacefully", "cheerfully", "eagerly", "carefully"],
+        "adv4": ["beautifully", "peacefully", "enormously", "generously"],
+
+        "p2": ["at the", "toward the", "in the", "off the", "on the", "through the", "with the", "near the"],
+        "p3": ["next to the", "over the", "under the", "without the", "into the"],
+        "p4": ["across from the", "inside of the", "because of the", "in spite of the", "underneath the"]
+    },
+    "grammarRules": {
+        "l1": ["adj1 n3 v1", "adj2 n3", "adj3 n2", "n1 adv2 v2", "n1 adv3 v2", "adj1 n4", "n4 v1", "n2 adv2 v1", "n2 v1 adv2", "adj4 n1", "adj2 n1 v2", "adj2 n2 v1"],
+        "l2": ["adj2 adj3 n2", "adj3 adj2 n2", "adv2 adj2 n3", "adv3 adj2 n2", "adv3 adj3 n1", "adv2 v1 p2 adj1 n1", "adv3 v1 p2 n1", "adv2 v1 p2 n2", "v2 p2 adj1 n2", "adj2 p3 adj1 n1", "adj3 p2 adj1 n1", "adj2 p2 adj2 n1", "adj2 p2 adj1 n2", "adj2 p4 n1", "adj1 p4 adj1 n1", "v1 p2 adj3 n1", "v1 p2 adj2 n2", "v1 p3 adj1 n2", "v1 p3 adj2 n1", "v1 p4 adj1 n1"],
+        "l3": ["p2 adj1 n2", "p3 adj1 n1", "p4 n1", "p3 n2", "p2 n3", "n1 v1 adv3", "n1 v2 adv2", "n2 v1 adv2", "n1 adv3 v1", "v1 adv4", "adj3 n2", "adj2 n3", "adj1 n4", "p2 adj2 n1", "p2 adj1 n2"]
+    }
+}

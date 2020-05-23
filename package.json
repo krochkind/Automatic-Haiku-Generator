@@ -1,0 +1,11 @@
+{
+    "name": "haiku-generator",
+    "description": "Node.js Haiku Generator",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Keith Rochkind",
+    "scripts": {
+        "start": "node index.js"
+    }
+}
