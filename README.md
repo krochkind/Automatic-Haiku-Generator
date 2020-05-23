@@ -9,7 +9,7 @@ There are two client-side APIs:
   
  >/data - pulls a json file that contains the dictionary of words, grammatical rules.  It then uses these to build the haiku and returns it as a json object, which is used by jquery to update the dom.
 
-On the server side, I had to create code to handle each of the different types of requests: html, js, css, json, and images.  The meat and potatoes happens in the <code>(req.url == '/data')</code> block
+The real work all happens in **index.js** (the web server code).  On the server side, I had to create code to handle each of the different types of requests: html, js, css, json, and images.  The haiku gets generated in the <code>(req.url == '/data')</code> block.
 
 To run it locally, type 
 <code>node index.js</code>
